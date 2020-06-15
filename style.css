@@ -1,0 +1,236 @@
+@font-face {
+    font-family:GothamRounded; src:url('fonts/GothamRounded-Medium.otf');
+}
+@font-face {
+    font-family:GothamRoundedLight; src:url('fonts/GothamRounded-Light.otf');
+}
+html, body {
+    font-size:10px;
+}
+#btntop{
+    display:none; position:fixed; bottom:1.5rem; right:1.5rem; z-index:99; border:2px solid transparent; border-radius:.5rem; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); padding:.35rem 1.05rem .35rem 1.05rem !important; color:white; box-shadow:.3rem .3rem .5rem rgb(200,200,200); transition:.2s all;
+}
+#btntop:hover, #btntop:focus {
+    background-image:linear-gradient(to bottom right, white, white); border:2px solid rgb(19,164,34); color:rgb(18,18,18); box-shadow:none; outline:none; transition:.2s all;
+}
+.header, .konten1, .konten2, .konten3, .konten4 {
+    border-radius:0; background-color:white; background-size:cover;
+}
+.profil {
+    width:60%; float:right; margin-top: 10rem;
+}
+.header h1 {
+    margin-top:35%;
+}
+.header h3 {
+    margin-top:-1rem; margin-bottom:-.5rem;
+}
+.kontak:hover {
+    border:2px solid rgb(155,127,69);background-image:linear-gradient(to bottom right, transparent, transparent); transition:.2s all; box-shadow:none; filter:invert(100%) !important;
+}
+.kontak {
+    width:4rem; height:4rem; margin:0rem .2rem 0rem .2rem; border:2px solid transparent; border-radius:50%; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); transition:.2s all; box-shadow:.3rem .3rem .5rem rgb(200,200,200);
+}
+
+table tr td {
+    font-size:1.6rem; font-family:'GothamRoundedLight'; color:rgb(18,18,18); letter-spacing:.05rem;
+}
+.btn {
+    background-image:linear-gradient(to bottom right, white, white); border:2px solid rgb(19,164,34); padding:1rem 1.5rem 1rem 1.5rem; font-size:1.6rem; font-family:'GothamRounded'; border-radius:.5rem; color:rgb(18,18,18); transition:.2s all; box-shadow:none;
+}
+.btn:hover, .btn:focus {
+    outline:none !important; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); border:2px solid transparent; box-shadow:.5rem .5rem 1rem rgb(200,200,200); transition:.2s all; color:white !important;
+}
+.konten1 img {
+    width:100%;
+}
+.konten1 a {
+    text-decoration:none;
+}
+
+.timeline {
+    position:relative; margin:3rem auto; padding:2rem 0;
+}
+.timeline:before {
+    content:''; position:absolute; left:50%; width:2px; height:85%; background:rgb(18,18,18);
+}
+.timeline ul {
+    margin:0; padding:0;
+}
+.timeline ul li {
+    list-style:none; position:relative; width:50%; padding:2rem 4rem;
+}
+.timeline ul li:nth-child(odd) {
+    float:left; text-align:right; clear:both;
+}
+.timeline ul li:nth-child(even) {
+    float:right; text-align:left; clear:both;
+}
+.content {
+    padding-bottom:2rem;
+}
+.timeline ul li:nth-child(odd):before {
+    content:''; position:absolute; top:24px; right:-6px; width:1rem; height:1rem; background:rgb(18,18,18); border-radius:50%; box-shadow:0 0 0 3px rgba(156, 156, 156, 0.2)
+}
+.timeline ul li:nth-child(even):before {
+    content:''; position:absolute; top:24px; left:-4px; width:1rem; height:1rem; background:rgb(18,18,18); border-radius:50%; box-shadow:0 0 0 3px rgba(156, 156, 156, 0.2)
+}
+.timeline ul li h5 {
+    margin:0; padding:0;
+}
+.timeline ul li .time h5 {
+    margin:0; padding:0; color:white;
+}
+.timeline ul li:nth-child(odd) .time {
+    position:absolute; top:12px; right:-165px;margin:0; padding:8px 16px; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); color:white !important; border-radius:25px; box-shadow:0 0 0 3px rgba(156, 156, 156, 0.4);
+}
+.timeline ul li:nth-child(even) .time {
+    position:absolute; top:12px; left:-165px; margin:0; padding:8px 16px; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); color:white; border-radius:25px; box-shadow:0 0 0 3px rgba(156, 156, 156, 0.4);
+}
+.talent {
+    padding:15px;
+}
+.box {
+    width:100%; background-color:rgb(230, 230, 230); border-radius:.5rem !important;
+}
+.skill {
+    color:white; margin-bottom:1.2rem; border-radius:5px;
+}
+.ket {
+    padding-left:1rem; padding-top:.6rem; padding-bottom:.6rem; border-radius:5px 0px 0px 5px;
+}
+.html {width: 88%; background-color: #e96815;}
+.php {width: 65%; background-color: #6482dd;}
+.js {width: 40%; background-color: #fbde1c;}
+.ci {width: 80%; background-color: #be4e06;}
+.pr {width: 45%; background-color: #c93e92;}
+.ps {width: 70%; background-color: #0e9dd2;}
+.ae {width: 82%; background-color: #861d5d;}
+
+.award {
+    padding:3rem; background-image:linear-gradient(to bottom right, rgb(19,164,34), rgb(116, 141, 192)); border-radius:1rem; border:none;
+}
+.award h2 {
+    color:white;
+}
+.award ul li {
+    font-size:1.6rem; font-family:'GothamRoundedLight'; color:white; letter-spacing:.05rem; margin-left:-2rem;
+}
+
+.konten4 .card {
+    border-radius: 1rem; margin-bottom:3.5rem; transition:.2s all;
+}
+.konten4 .card:hover {
+    box-shadow:.5rem .5rem 1.5rem rgb(235,235,235); border:1px solid transparent; transition:.2s all;
+}
+.card-img-top {
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.konten4 a {
+    text-decoration:none;
+}
+.konten4 .card h4 {
+    color:rgb(18,18,18); transition:.2s;
+}
+.konten4 .card h4:hover {
+    color:rgb(19,164,34); transition:.2s;
+}
+
+.page-footer{
+    width:100%; background-color:white; padding:1.5rem 0rem 1.5rem 0rem;
+}
+.page-footer h5 {
+    font-weight:lighter; text-align:center; line-height:2.8rem;
+}
+h1 {
+    font-size:5rem; font-family:'GothamRounded'; color:rgb(18,18,18);
+}
+h2 {
+    font-size:3.2rem; font-family:'GothamRounded'; text-align:center; margin-bottom:3rem; color:rgb(18,18,18);
+}
+h3 {
+    font-size:2.5rem; font-family:'GothamRounded'; color:rgb(18,18,18);
+}
+h4 {
+    font-size:2rem; font-family:'GothamRounded'; color:white;
+}
+h5 {
+    font-size:1.6rem; font-family: 'GothamRoundedLight'; color:rgb(18,18,18); letter-spacing:.05rem;
+}
+h6 {
+    font-size:1rem; font-family: 'GothamRoundedLight'; color:rgb(18,18,18); letter-spacing:.05rem; text-align:center;
+}
+p {
+    font-size:1.6rem; font-family: 'GothamRoundedLight'; color:rgb(18,18,18); letter-spacing:.05rem;
+}
+strong {
+    color:rgb(19,164,34); font-weight:lighter;
+}
+hr {
+    margin-bottom:2rem; width:100%; float:left; background-color:rgb(18,18,18) !important; height:2px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header h1 {
+        margin-top:10%;
+    }
+    h1 {
+        line-height:5.2rem;
+    }
+    .header h3 {
+        margin-top:1rem; margin-bottom:-.5rem;
+    }
+    .konten1 .clm {
+        display:none;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        line-height:5.2rem;
+    }
+    .header h3 {
+        margin-top:1rem; margin-bottom:-.5rem;
+    }
+    .container {
+        padding:none !important;
+    }
+    .profil {
+        float:none; margin-top:1rem;
+    }
+    .header h1 {
+        margin-top:0%;
+    }
+    .konten1 .clm {
+        display:none;
+    }
+    .timeline {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .timeline:before {
+        left:0px; width:2px; height:80%; top:0px;
+    }
+    .timeline ul li:nth-child(even),
+    .timeline ul li:nth-child(odd) {
+        width: 100%;
+        text-align: left;
+        padding-left: 30px;
+        padding-bottom: 50px;
+    }
+    .timeline ul li:nth-child(even):before,
+    .timeline ul li:nth-child(odd):before {
+        top: -18px;
+        left: -3px;
+    }
+    .timeline ul li:nth-child(even) .time,
+    .timeline ul li:nth-child(odd) .time {
+        top: -30px;
+        left: 30px;
+        right: inherit;
+    }
+    .page-footer{
+        width:100%; background-color:white; padding:2.4rem;
+    }
+    .page-footer h5 {
+        text-align:left;
+    }
+}
