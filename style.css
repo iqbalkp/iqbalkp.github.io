@@ -17,7 +17,7 @@ html, body {
     border-radius:0; background-color:white; background-size:cover;
 }
 .profil {
-    width:60%; float:right; margin-top: 10rem;
+    width:60%; float:right; margin-top: 15rem; margin-right: 10rem;
 }
 .header h1 {
     margin-top:35%;
@@ -144,6 +144,75 @@ table tr td {
 }
 .pull-right {
   float: right;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link span{
+  position: relative;
+  display: block;
+  padding-bottom: 2px;
+  font-family: 'GothamRounded';
+}
+.ftco-navbar-light{
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  z-index: 3;
+}
+.ftco-navbar-light .container{
+  width: 1110px;
+  margin: auto;
+  padding: 1;
+  background: black;
+  border-radius: 50px;
+}
+.ftco-navbar-light .navbar-brand{
+  font-size: 16px;
+  color: white;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  font-family: 'GothamRounded';
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: 24px
+  text-transform: uppercase;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.ftco-navbar-light .navbar-toggler{
+  border: none;
+  color: white!important;
+  cursor: pointer;
+  padding-right: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .1rem;
+  font-family: 'GothamRounded';
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+  font-size: 16px;
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: 400;
+}
+.ftco-navbar-light.scrolled{
+  position: fixed;
+  background: black!important;
+  padding: 0 15px;
+}
+.oi {
+  font-family: 'GothamRounded';
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  speak: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
 }
 h1 {
     font-size:5rem; font-family:'GothamRounded'; color:rgb(18,18,18);

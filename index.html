@@ -9,9 +9,29 @@
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/lazysizes.min.js"></script>
+        <script src="js/main.js"></script>
         <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
     </head>
     <body oncontextmenu='return true' onselectstart='return true'>
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Home</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#jumbotron-konten1" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#jumbotron-konten2" class="nav-link"><span>Skills</span></a></li>
+	          <li class="nav-item"><a href="#jumbotron-konten3" class="nav-link"><span>Experience</span></a></li>
+	          <li class="nav-item"><a href="#jumbotron-konten4" class="nav-link"><span>Portfolio</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <br>
+    <br>
         <button id="btntop" title="Go to top"><i class="fas fa-chevron-up fa-lg"></i></button>
         <section>
             <div class="jumbotron header">
@@ -34,14 +54,11 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="jumbotron-konten1">
             <div class="jumbotron konten1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5 col-md-12 clm">
-                            <a href="http://rsb.tanahbumbukab.go.id/who-am-i/" target="_blank">
-                                <img src="img/ppl.jpeg" class="lazyload">
-                            </a>
                         </div>
                         <div class="col-lg-7 col-md-12">
                             <h2>ABOUT ME</h2>
@@ -77,7 +94,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="jumbotron-konten2">
             <div class="jumbotron konten2">
                 <div class="container">
                     <div class="row">
@@ -148,11 +165,11 @@
             </div>
         </section>
 
-        <section>
+        <section id="jumbotron-konten3">
             <div class="jumbotron konten3">
+              <h2>AWARDS & EXPERIENCE</h2>
                 <div class="container">
                     <div class="card award">
-                        <h2>AWARDS & EXPERIENCE</h2>
                         <h4>Awards :</h4>
                         <ul>
                             <li>Short Story Writing Contest 2017 Conducted by OFAINTHASM COMMUNITY</li>
@@ -170,7 +187,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="jumbotron-konten4">
             <div class="jumbotron konten4">
                 <div class="container">
                     <h2>PORTFOLIO</h2>
@@ -210,6 +227,39 @@
                 </div>
             </div>
         </section>
+        <section id="jumbotron-konten2">
+            <div class="jumbotron konten2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>EDUCATION</h2>
+                            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                              </div>
+                              <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject">
+                              </div>
+                              <div class="form-group">
+                                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                              </div>
+                              <div class="form-group">
+                                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                              </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>SKILLS</h2>
+                            <img src="img/bal.jpg" height="350" width="430" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <div class="page-footer">
             <h5>Copyright &copy; 2020 <strong style="font-weight:bolder">Iqbal Kurniawan Perdana</strong>. All rights reserved.</h5>
         </div>
